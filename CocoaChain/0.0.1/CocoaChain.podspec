@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.source_files = 'CocoaChain/Classes/**/*'
   s.ios.deployment_target = '10.0'
   s.swift_version  = '5.0'
-  s.dependency 'SnapKit'
+  s.dependency 'SnapKit', '>= 5.0.0'
   
 
 end
